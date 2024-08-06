@@ -1,0 +1,41 @@
+:root {
+--primary-color: teal;
+--secondary-color: rgba(249, 242, 242, 0.979); 
+--primary-background: grey;
+}
+body {
+    margin: 0px;
+    background-color: var(--primary-background);
+}
+header {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 16px;
+}
+.logo-name {
+    margin: 48px;
+}
+.logo-name img {
+    height: 40px;
+}
+.name {
+    font-size: 28px;
+    margin-top: 0px;
+}
+
+.coder-text {
+    color: #203C5C;
+}
+
+.academy-text {
+    color: #67A4C1;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: blue;
+}
