@@ -38,3 +38,5 @@ Footer has social media links and contact information for the business such as p
         <p>Address 1 street at suburbia road 00000</p>
     </div>
  ```
+ ## Services
+ Displays the services on the page 
