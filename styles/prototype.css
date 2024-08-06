@@ -6,6 +6,10 @@
 body {
     margin: 0px;
     background-color: var(--primary-background);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
 }
 header {
     background-color: var(--primary-color);
@@ -38,4 +42,24 @@ nav {
 nav a {
     text-decoration: none;
     color: blue;
+}
+footer{
+    background-color: var(--primary-color);
+    padding: 16px;
+    text-align: center;
+}
+.social-media{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 32px;
+}
+.social-media a i {
+    color: blue;
+    font-size: 24px;
+}
+.info{
+    color: darkblue;
+}
+.info p{
+    margin: 10px;
 }

@@ -26,3 +26,15 @@ Mobile first header consisting of logo, heading (name of company), and navigatio
 </nav>
 </header> 
 ```
+### Footer
+Footer has social media links and contact information for the business such as phone number and address. Here is the footer code:
+```html
+ <div class="social-media">
+        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <div class="info">
+        <p>Contact:040000000</p>
+        <p>Address 1 street at suburbia road 00000</p>
+    </div>
+ ```
