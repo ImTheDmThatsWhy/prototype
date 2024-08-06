@@ -51,7 +51,7 @@ footer{
 .social-media{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 32px;
+    margin-bottom: 20px;
 }
 .social-media a i {
     color: blue;
@@ -60,10 +60,7 @@ footer{
 .info{
     color: darkblue;
 }
-.info p{
-    margin: 10px;
-}
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 576px) {
 header {
 display: flex;
 align-items: flex-end;
@@ -75,10 +72,18 @@ justify-content: space-between;
 nav {
     width: 55%;
 }
+.info {
+    margin-left: auto;
+    margin-right: auto;
+}
 .social-media{
 width: 60%;
 margin-left: auto;
 margin-right: auto;
 }
 }
-    
+@media screen and (min-width: 768px) {
+    body{
+        padding: 0 15vw;
+    }
+}
